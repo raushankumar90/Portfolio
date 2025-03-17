@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Youtube Video Player"
+              description="Personal youtube video player is made using react and  react player library. It has features as follows- copy a link from youtube , paste it in video player , watch the video ,remembers watched time of a video, customiszed controls , automatic save history , edit watch the history ,"
+              ghLink="https://github.com/raushankumar90/ReactVideoPlayer.git"
+              demoLink="https://react-video-player-sable.vercel.app/"
             />
           </Col>
 
@@ -36,14 +36,14 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="AI Quiz App"
+              description="AI-Quiz-App is made using react , appwrite and gemini-ai. It uses GeminiAI to prepare mcq problems related to different programming languages and technologies like react , django. It also provide detailed explanation of answers and create a report after test. "
+              ghLink=""
+              demoLink=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -52,9 +52,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,9 +63,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
