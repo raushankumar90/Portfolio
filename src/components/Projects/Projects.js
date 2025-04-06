@@ -39,7 +39,7 @@ function Projects() {
               title="AI Quiz App"
               description="AI-Quiz-App is made using react , appwrite and gemini-ai. It uses GeminiAI to prepare mcq problems related to different programming languages and technologies like react , django. It also provide detailed explanation of answers and create a report after test. "
               ghLink=""
-              demoLink=""
+              demoLink="https://quiz-app-gamma-black.vercel.app/"
             />
           </Col>
 
